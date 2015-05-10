@@ -1,20 +1,20 @@
 package com.example.dns.rasm;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class FindNameActivity extends Activity {
-    EditText name;
-    ListView lst_rez_name;
+public class TestActionBar extends Activity {
+
+    ActionBar actionbar = getActionBar();
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.poisk1);
+        setContentView(R.layout.test_action_bar);
+        actionbar.show();
 
-        name =  (EditText) findViewById(R.id.EV_input_name);
-        lst_rez_name =  (ListView ) findViewById(R.id.LV_res);
 
 
     }

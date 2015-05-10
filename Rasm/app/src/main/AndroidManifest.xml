@@ -18,4 +18,9 @@
         </activity>
     </application>
 
+
+
+    <uses-sdk android:targetSdkVersion="15" />
+
+
 </manifest>
