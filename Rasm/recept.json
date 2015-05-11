@@ -1,65 +1,65 @@
 {
-	"DB_name":"Книга рецептов",
+	"DB_name":"РљРЅРёРіР° СЂРµС†РµРїС‚РѕРІ",
 	"recepts_array":[
 	{
-		"recept_name":"Манная каша",
-		"recept":"Вскипятить молоко. Добавить сахар. Помешивая всыпать крупу",
+		"recept_name":"РњР°РЅРЅР°СЏ РєР°С€Р°",
+		"recept":"Р’СЃРєРёРїСЏС‚РёС‚СЊ РјРѕР»РѕРєРѕ. Р”РѕР±Р°РІРёС‚СЊ СЃР°С…Р°СЂ. РџРѕРјРµС€РёРІР°СЏ РІСЃС‹РїР°С‚СЊ РєСЂСѓРїСѓ.",
 		"time_prep":10,
 		"time_timer":2,
 		"image_res":"m_ kasha.jpg",
 		"ingredients":[
 			{
 				"product_id":1,
-				"product_name":"молоко",
-				"product_kol":"500 мл"
+				"product_name":"РјРѕР»РѕРєРѕ",
+				"product_kol":"500 РјР»"
 			},
 			{
 				"product_id":2,
-				"product_name":"крупа манная",
-				"product_kol":"100 г"
+				"product_name":"РєСЂСѓРїР° РјР°РЅРЅР°СЏ",
+				"product_kol":"100 Рі"
 			},
 			{
 				"product_id":3,
-				"product_name":"сахар",
-				"product_kol":"20 г"
+				"product_name":"СЃР°С…Р°СЂ",
+				"product_kol":"20 Рі"
 			}
 		]
 	},
 	{
-		"recept_name":"Яичница с помидорами",
-		"recept":"Помидоры помыть и порезать. Обжарить помидоры. Добавить яйца. Посолить.",
+		"recept_name":"РЇРёС‡РЅРёС†Р° СЃ РїРѕРјРёРґРѕСЂР°РјРё",
+		"recept":"РџРѕРјРёРґРѕСЂС‹ РїРѕРјС‹С‚СЊ Рё РїРѕСЂРµР·Р°С‚СЊ. РћР±Р¶Р°СЂРёС‚СЊ РїРѕРјРёРґРѕСЂС‹. Р”РѕР±Р°РІРёС‚СЊ СЏР№С†Р°. РџРѕСЃРѕР»РёС‚СЊ.",
 		"time_prep":10,
 		"time_timer":0,
 		"image_res":"egg_potate.jpg",
 		"ingredients":[
 			{
 				"product_id":4,
-				"product_name":"помидоры",
-				"product_kol":"1 шт."
+				"product_name":"РїРѕРјРёРґРѕСЂС‹",
+				"product_kol":"1С€С‚."
 			},
 			{
 				"product_id":5,
-				"product_name":"яйцо",
-				"product_kol":"2 шт."
+				"product_name":"СЏР№С†Рѕ",
+				"product_kol":"2 С€С‚."
 			}
 		]
 	},
 	{
-		"recept_name":"Омлет",
-		"recept":"Взбить яйца. Добавить молоко. Посолить. Вылить на сковородку и жарить на медленном огне под крышкой.",
+		"recept_name":"РћРјР»РµС‚",
+		"recept":"Р’Р·Р±РёС‚СЊ СЏР№С†Р°. Р”РѕР±Р°РІРёС‚СЊ РјРѕР»РѕРєРѕ. РџРѕСЃРѕР»РёС‚СЊ. Р’С‹Р»РёС‚СЊ РЅР° СЃРєРѕРІРѕСЂРѕРґРєСѓ Рё Р¶Р°СЂРёС‚СЊ РЅР° РјРµРґР»РµРЅРЅРѕРј РѕРіРЅРµ РїРѕРґ РєСЂС‹С€РєРѕР№.",
 		"time_prep":5,
 		"time_timer":3,
 		"image_res":"omlet.jpg",
 		"ingredients":[
 			{
 				"product_id":1,
-				"product_name":"молоко",
-				"product_kol":"300 мл"
+				"product_name":"РјРѕР»РѕРєРѕ",
+				"product_kol":"300 РјР»"
 			},
 			{
 				"product_id":5,
-				"product_name":"яйцо",
-				"product_kol":"2 шт."
+				"product_name":"СЏР№С†Рѕ",
+				"product_kol":"2 С€С‚."
 			}
 		]
 	}
@@ -67,39 +67,39 @@
 	"products_array":[
 		{
 			"product_id":1,
-			"product_name":"молоко"
+			"product_name":"РјРѕР»РѕРєРѕ"
 		},
 		{
 			"product_id":2,
-			"product_name":"крупа манная"
+			"product_name":"РєСЂСѓРїР° РјР°РЅРЅР°СЏ"
 		},
 		{
 			"product_id":3,
-			"product_name":"сахар"
+			"product_name":"СЃР°С…Р°СЂ"
 		},
 		{
 			"product_id":4,
-			"product_name":"помидоры"
+			"product_name":"РїРѕРјРёРґРѕСЂС‹"
 		},
 		{
 			"product_id":5,
-			"product_name":"яйцо"
+			"product_name":"СЏР№С†Рѕ"
 		},
 		{
 			"product_id":6,
-			"product_name":"мука"
+			"product_name":"РјСѓРєР°"
 		},
 		{
 			"product_id":7,
-			"product_name":"свинина"
+			"product_name":"СЃРІРёРЅРёРЅР°"
 		},
 		{
 			"product_id":8,
-			"product_name":"говядина"
+			"product_name":"РіРѕРІСЏРґРёРЅР°"
 		},
 		{
 			"product_id":9,
-			"product_name":"фарш мясной"
+			"product_name":"Р±РµРєРѕРЅ"
 		}
 	]
 }
