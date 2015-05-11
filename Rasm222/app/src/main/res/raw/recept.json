@@ -1,0 +1,105 @@
+{
+	"DB_name":"Книга рецептов",
+	"recepts_array":[
+	{
+		"recept_name":"Манная каша",
+		"recept":"Вскипятить молоко. Добавить сахар. Помешивая всыпать крупу.",
+		"time_prep":10,
+		"time_timer":2,
+		"image_res":"m_ kasha.jpg",
+		"ingredients":[
+			{
+				"product_id":1,
+				"product_name":"молоко",
+				"product_kol":"500 мл"
+			},
+			{
+				"product_id":2,
+				"product_name":"крупа манная",
+				"product_kol":"100 г"
+			},
+			{
+				"product_id":3,
+				"product_name":"сахар",
+				"product_kol":"20 г"
+			}
+		]
+	},
+	{
+		"recept_name":"Яичница с помидорами",
+		"recept":"Помидоры помыть и порезать. Обжарить помидоры. Добавить яйца. Посолить.",
+		"time_prep":10,
+		"time_timer":0,
+		"image_res":"egg_potate.jpg",
+		"ingredients":[
+			{
+				"product_id":4,
+				"product_name":"помидоры",
+				"product_kol":"1шт."
+			},
+			{
+				"product_id":5,
+				"product_name":"яйцо",
+				"product_kol":"2 шт."
+			}
+		]
+	},
+	{
+		"recept_name":"Омлет",
+		"recept":"Взбить яйца. Добавить молоко. Посолить. Вылить на сковородку и жарить на медленном огне под крышкой.",
+		"time_prep":5,
+		"time_timer":3,
+		"image_res":"omlet.jpg",
+		"ingredients":[
+			{
+				"product_id":1,
+				"product_name":"молоко",
+				"product_kol":"300 мл"
+			},
+			{
+				"product_id":5,
+				"product_name":"яйцо",
+				"product_kol":"2 шт."
+			}
+		]
+	}
+	],
+	"products_array":[
+		{
+			"product_id":1,
+			"product_name":"молоко"
+		},
+		{
+			"product_id":2,
+			"product_name":"крупа манная"
+		},
+		{
+			"product_id":3,
+			"product_name":"сахар"
+		},
+		{
+			"product_id":4,
+			"product_name":"помидоры"
+		},
+		{
+			"product_id":5,
+			"product_name":"яйцо"
+		},
+		{
+			"product_id":6,
+			"product_name":"мука"
+		},
+		{
+			"product_id":7,
+			"product_name":"свинина"
+		},
+		{
+			"product_id":8,
+			"product_name":"говядина"
+		},
+		{
+			"product_id":9,
+			"product_name":"бекон"
+		}
+	]
+}
