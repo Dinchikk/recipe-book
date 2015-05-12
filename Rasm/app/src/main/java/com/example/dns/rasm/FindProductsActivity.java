@@ -151,7 +151,7 @@ public class FindProductsActivity extends Activity {
                     + "recept text not null,"
                     + "time_prep integer,"
                     + "time_timer integer,"
-                    + "image_res integer" + ");");
+                    + "image_res text not null" + ");");
 
             db.execSQL("create table " + DATABASE_TABLE_I + "("
                     + "id integer primary key autoincrement,"

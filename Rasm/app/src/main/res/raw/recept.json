@@ -6,7 +6,7 @@
 		"recept":"Вскипятить молоко. Добавить сахар. Помешивая всыпать крупу.",
 		"time_prep":10,
 		"time_timer":2,
-		"image_res":"m_ kasha.jpg",
+		"image_res":"m_kasha",
 		"ingredients":[
 			{
 				"product_id":1,
@@ -30,7 +30,7 @@
 		"recept":"Помидоры помыть и порезать. Обжарить помидоры. Добавить яйца. Посолить.",
 		"time_prep":10,
 		"time_timer":0,
-		"image_res":"egg_potate.jpg",
+		"image_res":"egg_potate",
 		"ingredients":[
 			{
 				"product_id":4,
@@ -49,7 +49,7 @@
 		"recept":"Взбить яйца. Добавить молоко. Посолить. Вылить на сковородку и жарить на медленном огне под крышкой.",
 		"time_prep":5,
 		"time_timer":3,
-		"image_res":"omlet.jpg",
+		"image_res":"omlet",
 		"ingredients":[
 			{
 				"product_id":1,

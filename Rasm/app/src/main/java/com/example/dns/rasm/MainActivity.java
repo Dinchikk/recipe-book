@@ -100,7 +100,12 @@ public class MainActivity extends ActionBarActivity {
         tv_Rec.setText(sdb.recept_text);
         tv_NameRec.setText(sdb.recept_name);
         tv_TimePrep.setText("Время приготовления " + sdb.time_prep + "мин");
-        ivImage.setImageResource(sdb.image_res);
+        try {
+            ivImage.setImageResource(R.raw.class.getField(sdb.image_res).getInt(getResources()));
+        } catch (IllegalAccessException | IllegalArgumentException	| NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+
 
         timerTime = sdb.timeforTimer * 60;
         updateTimerView(timerTime, false);

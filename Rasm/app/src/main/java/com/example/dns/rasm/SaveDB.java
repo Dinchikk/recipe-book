@@ -39,8 +39,8 @@ public class SaveDB {
     public String recept_text = "";
     public int time_prep = 0;
     public int timeforTimer = 0;
-    public int image_res = 0;
-    public String id_recipe = "";
+    public String image_res = "";
+    public String id_recipe = "m_kasha";
     public ArrayList<Map<String, Object>> products;
 
     //  Конструкторы
@@ -56,7 +56,7 @@ public class SaveDB {
             recept_name = c.getString(c.getColumnIndex("recept_name"));
             time_prep = c.getInt(c.getColumnIndex("time_prep"));
             timeforTimer = c.getInt(c.getColumnIndex("time_timer"));
-            image_res = c.getInt(c.getColumnIndex("image_res"));
+            image_res = c.getString(c.getColumnIndex("image_res"));
         }
 
         c = myDB.query(DATABASE_TABLE_P, null, null, null, null, null, null);
@@ -76,8 +76,7 @@ public class SaveDB {
 
     }
 
-    public void save_recept(String _recept_name, String _recept_text, int _time_prep, int _timeforTimer,
-                            int _image_res, ContentValues[] _products){
+    public void save_recept(String _recept_name, String _recept_text, int _time_prep, int _timeforTimer, String _image_res, ContentValues[] _products){
         recept_name = _recept_name;
         recept_text = _recept_text;
         time_prep = _time_prep;
@@ -119,7 +118,7 @@ public class SaveDB {
             recept_name = c.getString(c.getColumnIndex("recept_name"));
             time_prep = c.getInt(c.getColumnIndex("time_prep"));
             timeforTimer = c.getInt(c.getColumnIndex("time_timer"));
-            image_res = c.getInt(c.getColumnIndex("image_res"));
+            image_res = c.getString(c.getColumnIndex("image_res"));
             id_recipe = c.getString(c.getColumnIndex("id"));
         }
 
@@ -177,7 +176,7 @@ public class SaveDB {
                     + "recept text not null,"
                     + "time_prep integer,"
                     + "time_timer integer,"
-                    + "image_res integer" + ");");
+                    + "image_res text not null" + ");");
 
             ContentValues cv = new ContentValues();
 
@@ -227,7 +226,7 @@ public class SaveDB {
                     + "recept text not null,"
                     + "time_prep integer,"
                     + "time_timer integer,"
-                    + "image_res integer" + ");");
+                    + "image_res text not null" + ");");
 
             db.execSQL("create table " + DATABASE_TABLE_I + "("
                     + "id integer primary key autoincrement,"

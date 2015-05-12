@@ -29,5 +29,5 @@
         <activity android:name="FindNameActivity"></activity>
         <activity android:name="FindProductsActivity"></activity>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>

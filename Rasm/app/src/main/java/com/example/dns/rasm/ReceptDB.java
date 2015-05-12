@@ -47,16 +47,16 @@ public class ReceptDB {
         protected String doInBackground(Void... params) {
             // получаем данные с внешнего ресурса
             try {
+/*
+				URL url = new URL("https://raw.githubusercontent.com/Dinchikk/recipe-book/master/Rasm/recept.json");
 
-                URL url = new URL("https://raw.githubusercontent.com/Dinchikk/recipe-book/master/Rasm/gradlew");
+				urlConnection = (HttpURLConnection) url.openConnection();
+				urlConnection.setRequestMethod("GET");
+				urlConnection.connect();
 
-                urlConnection = (HttpURLConnection) url.openConnection();
-                urlConnection.setRequestMethod("GET");
-                urlConnection.connect();
-
-                InputStream inputStream = urlConnection.getInputStream();
-
-//				InputStream inputStream = mainContext.getResources().openRawResource(R.raw.recept);
+				InputStream inputStream = urlConnection.getInputStream();
+*/
+                InputStream inputStream = mainContext.getResources().openRawResource(R.raw.recept);
 
                 StringBuffer buffer = new StringBuffer();
 
@@ -143,7 +143,7 @@ public class ReceptDB {
                     + "recept text not null,"
                     + "time_prep integer,"
                     + "time_timer integer,"
-                    + "image_res integer" + ");");
+                    + "image_res text not null" + ");");
 
             db.execSQL("create table " + DATABASE_TABLE_I + "("
                     + "id integer primary key autoincrement,"
